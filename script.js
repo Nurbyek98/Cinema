@@ -25,11 +25,11 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-const ratingStars = [...document.getElementsByClassName("rating__star")];
+const ratingStars = [...document.getElementsByClassName("rating")];
 
 function executeRating(stars) {
-  const starClassActive = "rating__star fas fa-star";
-  const starClassInactive = "rating__star far fa-star";
+  const starClassActive = "rating fas fa-star";
+  const starClassInactive = "rating far fa-star";
   const starsLength = stars.length;
   let i;
   stars.map((star) => {
